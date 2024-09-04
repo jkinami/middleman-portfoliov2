@@ -8,6 +8,23 @@
     <!-- Use the title from a page's frontmatter if it has one -->
     <title><%= current_page.data.title || "Portfolio" %></title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.2/css/all.css">
+
+    <title><%= current_page.data.title || "JKINAMI | PORTFOLIO" %></title>
+    <meta name="description" content="Junichi Kinami's portfolio site">
+    <!-- Facebook Open Graph data -->
+    <meta property="og:title" content="JKINAMI | PORTFOLIO" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://jkinami.tech/" />
+    <meta property="og:image" content="<%= image_path 'MY_OG_IMAGE_WITH_RIGHT_SIZE.png' %>" />
+    <meta property="og:description" content="Junichi Kinami's portfolio site" />
+    <meta property="og:site_name" content="JKINAMI | PORTFOLIO" />
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@jkinami_tech">
+    <meta name="twitter:title" content="JKINAMI | PORTFOLIO">
+    <meta name="twitter:description" content="Junichi Kinami's portfolio site">
+    <meta name="twitter:creator" content="@jkinami_tech">
+    <meta name="twitter:image:src" content="<%= image_path 'MY_OG_IMAGE_WITH_RIGHT_SIZE.png' %>">
     <%= stylesheet_link_tag "site" %>
     <%= javascript_include_tag "site" %>
   </head>
