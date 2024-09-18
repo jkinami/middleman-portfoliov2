@@ -11,3 +11,10 @@
   url: https://filmspot-2969d7aec6c3.herokuapp.com/
   github: https://github.com/jkinami/FilmSpot
   online: true
+
+- name: Death Note Episode List API
+  description: API endpoint for Death Note Episode List meta data
+  image: projects/deathnoteapi.png
+  url: https://www.deathnoteeps.online/api/v1/episodes
+  github: https://github.com/jkinami/deathnote-episodes-api
+  online: true
