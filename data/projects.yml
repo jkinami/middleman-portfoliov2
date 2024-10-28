@@ -13,8 +13,15 @@
   online: true
 
 - name: Death Note Episode List API
-  description: API endpoint for Death Note Episode List meta data
+  description: API endpoint for Death Note Episode List meta data. The data is scraped from IMDB.
   image: projects/deathnoteapi.png
   url: https://www.deathnoteeps.online/api/v1/episodes
   github: https://github.com/jkinami/deathnote-episodes-api
+  online: true
+
+- name: Japan Real Estate Transactions
+  description: Generates visualizations for real estate transactions in Japan. The data is from RESAS (Regional Economy Society Analyzing System) API
+  image: projects/Landit.png
+  url: https://fuduo-torihiki.netlify.app/
+  github: https://github.com/jkinami/real-estate-app
   online: true
